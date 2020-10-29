@@ -1,0 +1,45 @@
+.container {
+  height: 100%;
+}
+#channel_list {
+	border: 1px solid black;
+	padding: 10px;
+	overflow-y: scroll;
+  height: 420px;
+}
+h3 {
+  float:left;
+  margin-left: 30px;
+}
+#display {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#chat {
+  width: 100%;
+}
+#input_block {
+}
+#channels {
+  width: 80%;
+}
+#channel_list ul {
+	width: 100%;
+  list-style: none;
+  padding-left: 0;
+}
+
+#channel_list li {
+  width: 100%;
+	background-color: white;
+}
+#message_block {
+  border: 1px solid black;
+	padding: 10px;
+  height: 420px;
+  overflow-y: scroll;
+}
+#send_block {
+  margin-top: 10px;
+  width: 80%;
+}
